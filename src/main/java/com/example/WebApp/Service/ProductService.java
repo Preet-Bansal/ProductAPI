@@ -15,9 +15,9 @@ public class ProductService {
     @Autowired
     ProductRepo productRepo;
 
-//    List<Product> prod = new ArrayList<>(Arrays.asList(new Product(101, "phone", 50000),
-//                                        new Product(102, "camera", 1000),
-//                                        new Product(102, "mouse", 900)));
+    List<Product> prod = new ArrayList<>(Arrays.asList(new Product(101, "phone", 50000),
+                                        new Product(102, "camera", 1000),
+                                        new Product(102, "mouse", 900)));
 
 
     public List<Product> getProducts(){
